@@ -1,12 +1,35 @@
 {
-  "name": "node-primer-shell",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "node-primer-shell",
+	"version": "0.1.0",
+	"description": "A Node.js application template to start any new project quickly and easily, including a basic application structure with TypeScript and Prettier configurations.",
+	"author": {
+		"name": "Peter Kovacs",
+		"email": "peterkov37@gmail.com",
+		"url": "https://primershell.com"
+	},
+	"maintainers": [
+		"thepeterkovacs"
+	],
+	"homepage": "https://github.com/thepeterkovacs/node-primer-shell",
+	"license": "MIT",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thepeterkovacs/node-primer-shell"
+	},
+	"engines": {
+		"node": ">=18.17.1"
+	},
+	"packageManager": "pnpm@8.7.1",
+	"scripts": {
+		"build": "npx tsc",
+		"watch": "tsc -w",
+		"dev": "node build/index.js",
+		"format": "pnpm prettier . --write"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"@types/node": "^20.8.2",
+		"typescript": "^5.2.2"
+	}
 }
