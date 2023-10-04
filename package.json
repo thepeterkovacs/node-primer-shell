@@ -4,6 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"build": "npx tsc",
+		"watch": "tsc -w",
+		"dev": "node build/index.js",
 		"format": "pnpm prettier . --write"
 	},
 	"keywords": [],
@@ -11,6 +14,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"@types/node": "^20.8.2",
 		"typescript": "^5.2.2"
 	}
 }
