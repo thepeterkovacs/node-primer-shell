@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
 		"lib": ["es2023"],
 		"module": "Node16",
 		"moduleResolution": "node16",
@@ -9,7 +10,8 @@
 		"outDir": "build",
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "es2022"
+		"target": "es2022",
+		"tsBuildInfoFile": ".tsbuildinfo"
 	},
 	"include": ["src"]
 }
