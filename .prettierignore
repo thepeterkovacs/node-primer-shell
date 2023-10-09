@@ -1,7 +1,9 @@
 # folders
+
 /node_modules/
 
 # files
-/.env*
+
+.env*
 *.tsbuildinfo
 pnpm-lock.yaml
