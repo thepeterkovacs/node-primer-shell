@@ -16,6 +16,9 @@ devDependencies:
   '@types/node':
     specifier: ^20.8.2
     version: 20.8.2
+  '@types/node-windows':
+    specifier: ^0.1.4
+    version: 0.1.4
   typescript:
     specifier: ^5.2.2
     version: 5.2.2
@@ -155,6 +158,12 @@ packages:
       prettier: 3.0.3
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@types/node-windows@0.1.4:
+    resolution: {integrity: sha512-yaZS0LdN5vpg2x2Tz254hemRHuVXAZE+6OPS6yFGXxeF1NN1xF8F8+quAoa4BwouBv9o81jOqrabry38K0B+uw==}
+    dependencies:
+      '@types/node': 20.8.2
     dev: true
 
   /@types/node@20.8.2:
