@@ -2,6 +2,14 @@
 	Changelog
 </h1>
 
+### 0.1.2
+
+#### New Features
+
+-   Windows service runtime
+-	launch.json
+-	Express server
+
 ### 0.1.1
 
 #### New Features
