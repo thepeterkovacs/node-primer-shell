@@ -24,7 +24,7 @@
 	"scripts": {
 		"build": "npx tsc",
 		"watch": "tsc -w",
-		"dev": "node build/index.js",
+		"dev": "node build/app.js",
 		"format": "pnpm prettier . --write"
 	},
 	"devDependencies": {
