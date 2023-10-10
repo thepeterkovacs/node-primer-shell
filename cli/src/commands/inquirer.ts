@@ -5,7 +5,7 @@ export async function askIsReady(): Promise<"Yes" | "No"> {
 		{
 			name: "ready",
 			type: "list",
-			message: "Ready to clone Web Primer Shell from GitHub?",
+			message: "Ready to clone Node Primer Shell from GitHub?",
 			choices: [
 				{
 					name: "Yes",

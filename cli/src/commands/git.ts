@@ -15,7 +15,11 @@ export async function checkIfGitExists(): Promise<void> {
 export async function cloneRepository(name: string): Promise<void> {
 	try {
 		await oraPromise(
-			execa("git", ["clone", "https://github.com/thepeterkovacs/web-primer-shell.git", name]),
+			execa("git", [
+				"clone",
+				"https://github.com/thepeterkovacs/node-primer-shell.git",
+				name,
+			]),
 			{
 				text: "Cloning repository...",
 				successText: "Repository cloned successfully",
