@@ -1,15 +1,15 @@
 <h1 align="center">
-	Web Primer Shell CLI
+	Node Primer Shell CLI
 </h1>
 
 ## Introduction
 
-[Web Primer Shell](https://github.com/thepeterkovacs/web-primer-shell) is a developer-friendly web application template suitable for a wide spectrum of full-stack projects, offering a blend of contemporary tools and solutions to cater to both straightforward and intricate development needs.
+[Node Primer Shell](https://github.com/thepeterkovacs/node-primer-shell) is a Node.js application template to start any new project quickly and easily, including a basic application structure with TypeScript and Prettier configurations.
 
 This CLI tool streamlines the initialization process of a new project with this template.
 
 ## Quick start
 
 ```bash
-pnpm dlx web-primer-shell
+pnpm dlx node-primer-shell
 ```
