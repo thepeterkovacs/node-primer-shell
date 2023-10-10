@@ -1,7 +1,7 @@
 {
-	"name": "web-primer-shell",
-	"version": "1.0.2",
-	"description": "Initializes a new project using the Web Primer Shell application template.",
+	"name": "node-primer-shell",
+	"version": "1.0.0",
+	"description": "Initializes a new project using the Node Primer Shell application template.",
 	"author": {
 		"name": "Peter Kovacs",
 		"email": "peterkov37@gmail.com",
@@ -10,14 +10,14 @@
 	"maintainers": [
 		"thepeterkovacs"
 	],
-	"homepage": "https://github.com/thepeterkovacs/web-primer-shell/tree/main/cli",
+	"homepage": "https://github.com/thepeterkovacs/node-primer-shell/tree/main/cli",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thepeterkovacs/web-primer-shell/tree/main/cli"
+		"url": "https://github.com/thepeterkovacs/node-primer-shell/tree/main/cli"
 	},
 	"keywords": [
-		"Web Primer Shell",
+		"Node Primer Shell",
 		"CLI",
 		"template",
 		"TypeScript"
