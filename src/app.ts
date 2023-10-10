@@ -1,7 +1,12 @@
+import * as dotenv from "dotenv"
 import express from "express"
 
+dotenv.config({
+	path: ".env.local",
+})
+
 const app = express()
-const port = 3000
+const port = process.env.PORT
 
 app.get("/", (_, res) => {
 	res.status(200).send("Node Primer Shell")
