@@ -2,13 +2,24 @@
 	Changelog
 </h1>
 
+### 0.1.3
+
+#### New Features
+
+-   tRPC server and Express adapter
+-   dotenv config
+
+#### Changes
+
+-   launch.json
+
 ### 0.1.2
 
 #### New Features
 
 -   Windows service runtime
--	launch.json
--	Express server
+-   launch.json
+-   Express server
 
 ### 0.1.1
 
