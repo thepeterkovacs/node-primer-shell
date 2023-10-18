@@ -1,9 +1,6 @@
-# folders
-
-/node_modules/
-/build/
+# directories
+node_modules
+build
 
 # files
-
 .env.local
-*.tsbuildinfo
