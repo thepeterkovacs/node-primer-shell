@@ -1,11 +1,11 @@
 {
 	"name": "node-primer-shell",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "A Node.js application template to start any new project quickly and easily, including a basic application structure with TypeScript and Prettier configurations.",
 	"author": {
 		"name": "Peter Kovacs",
 		"email": "peterkov37@gmail.com",
-		"url": "https://primershell.com"
+		"url": "https://primershell.com/portfolio"
 	},
 	"maintainers": [
 		"thepeterkovacs"
@@ -41,4 +41,3 @@
 		"node-windows": "1.0.0-beta.8"
 	}
 }
-
