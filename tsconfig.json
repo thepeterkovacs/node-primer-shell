@@ -1,17 +1,17 @@
 {
 	"compilerOptions": {
+		"allowJs": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"incremental": true,
 		"lib": ["es2023"],
 		"module": "Node16",
 		"moduleResolution": "node16",
 		"noUncheckedIndexedAccess": true,
 		"outDir": "build",
+		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "es2022",
-		"tsBuildInfoFile": ".tsbuildinfo"
+		"target": "es2022"
 	},
 	"include": ["src"]
 }
